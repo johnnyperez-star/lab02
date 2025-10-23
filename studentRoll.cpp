@@ -54,6 +54,7 @@ StudentRoll::~StudentRoll() {
     Node* temp = begin;
     begin = begin->next;
     delete temp->s;
+    delete temp;
   }
 }
 
